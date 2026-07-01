@@ -5,10 +5,10 @@
 
 void display_menu(void);
 
-Student input_student(void);
+void input_student(void);
 
-void search_student(void);
-void delete_student(void);
-void all_student(void);
+void search_student_ui(void);
+void delete_student_ui(void);
+void start_ui(void);
 
 #endif

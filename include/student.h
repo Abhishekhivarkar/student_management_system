@@ -5,7 +5,7 @@
 
 typedef struct {
  int id;
- char name[MAX_NANE_LEN];
+ char name[MAX_NAME_LEN];
  int age;
  float marks;
 } Student;

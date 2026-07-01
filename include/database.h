@@ -3,17 +3,17 @@
 
 #include "student.h"
 
-#define DATABASE_FILE "/data/students.txt"
+#define DATABASE_FILE "data/students.txt"
 
 void init_database(void);
 
-bool_t create_student(const Student *student);
+bool_t create_student(Student *student);
 
 bool_t delete_student(int id);
 
-boot_t search_student(int id, Student *student);
+bool_t search_student(int id, Student *student);
 
-void display_all_student(void);
+bool_t display_all_students(void);
 
 
 #endif
